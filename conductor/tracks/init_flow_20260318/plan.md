@@ -16,7 +16,7 @@ Implement the logic to orchestrate the project initialization.
 
 - [x] Task: Implement the Init Command Use Case (af494ba)
     - [ ] Create the core logic that uses the File System Adapter to create the required structure.
-- [ ] Task: Integrate with CLI Hub
+- [x] Task: Integrate with CLI Hub (295ebf2)
     - [ ] Register the `/sdd.init` command within the main CLI entry point.
 - [ ] Task: Conductor - User Manual Verification 'Core Logic Implementation' (Protocol in workflow.md)
 
