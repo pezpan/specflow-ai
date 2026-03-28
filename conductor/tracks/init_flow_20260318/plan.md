@@ -3,7 +3,7 @@
 ## Phase 1: Foundation & Project Structure
 Establish the core CLI command structure and the basic file creation logic following Hexagonal Architecture.
 
-- [ ] Task: Define the 'Init' Command Port (Interface)
+- [x] Task: Define the 'Init' Command Port (Interface) (bb2b27d)
     - [ ] Create an interface for the initialization command to decouple the CLI logic from the implementation.
 - [ ] Task: Implement the File System Adapter
     - [ ] Create a service to handle directory and file creation using `pathlib`.
