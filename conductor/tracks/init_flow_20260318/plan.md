@@ -7,7 +7,7 @@ Establish the core CLI command structure and the basic file creation logic follo
     - [ ] Create an interface for the initialization command to decouple the CLI logic from the implementation.
 - [x] Task: Implement the File System Adapter (d440269)
     - [ ] Create a service to handle directory and file creation using `pathlib`.
-- [ ] Task: Create Default Template Files
+- [x] Task: Create Default Template Files (eddc026)
     - [ ] Define the default content for `AGENTS.md` and `PROJECT_CONTEXT.md` within the application.
 - [ ] Task: Conductor - User Manual Verification 'Foundation & Project Structure' (Protocol in workflow.md)
 
