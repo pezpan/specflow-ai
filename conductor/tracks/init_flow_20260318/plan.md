@@ -23,7 +23,7 @@ Implement the logic to orchestrate the project initialization.
 ## Phase 3: Validation & Evidence
 Ensure the command works as expected and provides objective evidence.
 
-- [ ] Task: Write Integration Tests for `/sdd.init`
+- [x] Task: Write Integration Tests for `/sdd.init` (26389fd)
     - [ ] Create tests using `pytest` to verify the creation of files and directories in a temporary folder.
 - [ ] Task: Implement Evidence Reporting
     - [ ] Ensure the CLI output lists all created artifacts as evidence of completion.
