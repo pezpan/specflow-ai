@@ -4,6 +4,12 @@ from specflow_ai.core import templates
 
 class InitUseCase(InitPort):
     def __init__(self, fs_adapter: FileSystemAdapter):
+        """
+        Initializes the InitUseCase with a file system adapter.
+
+        Args:
+            fs_adapter: An instance of FileSystemAdapter.
+        """
         self.fs_adapter = fs_adapter
 
     def execute(self) -> None:

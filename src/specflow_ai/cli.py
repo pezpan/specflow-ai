@@ -3,7 +3,13 @@ import argparse
 from specflow_ai.core.init_use_case import InitUseCase
 from specflow_ai.core.file_system_adapter import FileSystemAdapter
 
-def main(args=None):
+def main(args: list[str] | None = None) -> None:
+    """
+    Main entry point for the SpecFlow-AI CLI tool.
+
+    Args:
+        args: Optional list of command-line arguments. If None, sys.argv[1:] is used.
+    """
     if args is None:
         args = sys.argv[1:]
 
