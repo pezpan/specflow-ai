@@ -20,11 +20,11 @@ Implement the logic to orchestrate the project initialization.
     - [ ] Register the `/sdd.init` command within the main CLI entry point.
 - [x] Task: Conductor - User Manual Verification 'Core Logic Implementation' (Protocol in workflow.md) (15d5866)
 
-## Phase 3: Validation & Evidence
+## Phase 3: Validation & Evidence [checkpoint: fd6d8f3]
 Ensure the command works as expected and provides objective evidence.
 
 - [x] Task: Write Integration Tests for `/sdd.init` (26389fd)
     - [ ] Create tests using `pytest` to verify the creation of files and directories in a temporary folder.
 - [x] Task: Implement Evidence Reporting (3bbf01f)
     - [ ] Ensure the CLI output lists all created artifacts as evidence of completion.
-- [ ] Task: Conductor - User Manual Verification 'Validation & Evidence' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Validation & Evidence' (Protocol in workflow.md) (fd6d8f3)
