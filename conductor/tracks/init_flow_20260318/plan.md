@@ -11,14 +11,14 @@ Establish the core CLI command structure and the basic file creation logic follo
     - [ ] Define the default content for `AGENTS.md` and `PROJECT_CONTEXT.md` within the application.
 - [x] Task: Conductor - User Manual Verification 'Foundation & Project Structure' (Protocol in workflow.md) (fc4777f)
 
-## Phase 2: Core Logic Implementation
+## Phase 2: Core Logic Implementation [checkpoint: 15d5866]
 Implement the logic to orchestrate the project initialization.
 
 - [x] Task: Implement the Init Command Use Case (af494ba)
     - [ ] Create the core logic that uses the File System Adapter to create the required structure.
 - [x] Task: Integrate with CLI Hub (295ebf2)
     - [ ] Register the `/sdd.init` command within the main CLI entry point.
-- [ ] Task: Conductor - User Manual Verification 'Core Logic Implementation' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Core Logic Implementation' (Protocol in workflow.md) (15d5866)
 
 ## Phase 3: Validation & Evidence
 Ensure the command works as expected and provides objective evidence.
