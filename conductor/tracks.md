@@ -4,5 +4,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [~] **Track: Implement the core /sdd.init command flow**
+- [x] **Track: Implement the core /sdd.init command flow**
   *Link: [./tracks/init_flow_20260318/](./tracks/init_flow_20260318/)*
