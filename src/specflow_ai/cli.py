@@ -20,6 +20,11 @@ def main(args=None):
         use_case = InitUseCase(fs_adapter=fs_adapter)
         use_case.execute()
         print("Project initialized successfully.")
+        print("Created artifacts:")
+        print("- Directory: prompts")
+        print("- Directory: skills")
+        print("- File: AGENTS.md")
+        print("- File: PROJECT_CONTEXT.md")
     else:
         parser.print_help()
 
