@@ -14,7 +14,7 @@ Establish the core CLI command structure and the basic file creation logic follo
 ## Phase 2: Core Logic Implementation
 Implement the logic to orchestrate the project initialization.
 
-- [ ] Task: Implement the Init Command Use Case
+- [x] Task: Implement the Init Command Use Case (af494ba)
     - [ ] Create the core logic that uses the File System Adapter to create the required structure.
 - [ ] Task: Integrate with CLI Hub
     - [ ] Register the `/sdd.init` command within the main CLI entry point.
