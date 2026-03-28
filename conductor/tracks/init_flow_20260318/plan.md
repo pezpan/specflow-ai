@@ -25,6 +25,6 @@ Ensure the command works as expected and provides objective evidence.
 
 - [x] Task: Write Integration Tests for `/sdd.init` (26389fd)
     - [ ] Create tests using `pytest` to verify the creation of files and directories in a temporary folder.
-- [ ] Task: Implement Evidence Reporting
+- [x] Task: Implement Evidence Reporting (3bbf01f)
     - [ ] Ensure the CLI output lists all created artifacts as evidence of completion.
 - [ ] Task: Conductor - User Manual Verification 'Validation & Evidence' (Protocol in workflow.md)
