@@ -26,8 +26,8 @@ Implement the generation of the `spec.md` file using the gathered information.
 - [x] Task: Implement Gherkin Generator (a3cc22b)
     - [x] Write tests for Gherkin formatting (Given/When/Then). (a3cc22b)
     - [x] Implement the generator for the specification body. (a3cc22b)
-- [ ] Task: Implement Metadata and History Exporters
-    - [ ] Create components to generate the Metadata Header, Out of Scope Section, and Dialogue History.
+- [x] Task: Implement Metadata and History Exporters (360fa04)
+    - [x] Create components to generate the Metadata Header, Out of Scope Section, and Dialogue History. (360fa04)
 - [ ] Task: Implement File Persistence Service
     - [ ] Implement saving the resulting file to `specs/{feature_name}/spec.md`.
 - [ ] Task: Conductor - User Manual Verification 'Specification Generation & Persistence' (Protocol in workflow.md)
