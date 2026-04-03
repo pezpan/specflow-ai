@@ -3,9 +3,9 @@
 ## Phase 1: Core Command Orchestration
 Establish the `/sdd.specify` command entry point and the transition to Master Plan Mode.
 
-- [ ] Task: Register the `/sdd.specify` command in the CLI Hub
-    - [ ] Create the command definition and help text.
-    - [ ] Implement the initial "Mode Master Plan" announcement.
+- [x] Task: Register the `/sdd.specify` command in the CLI Hub (b253d3d)
+    - [x] Create the command definition and help text. (b253d3d)
+    - [x] Implement the initial "Mode Master Plan" announcement. (b253d3d)
 - [ ] Task: Implement Master Plan Mode State Management
     - [ ] Define the state required to track the dialogue progress (e.g., question count, gathered data).
 - [ ] Task: Conductor - User Manual Verification 'Core Command Orchestration' (Protocol in workflow.md)
