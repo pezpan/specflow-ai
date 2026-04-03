@@ -10,7 +10,7 @@ Establish the `/sdd.specify` command entry point and the transition to Master Pl
     - [x] Define the state required to track the dialogue progress (e.g., question count, gathered data). (49f09e0)
 - [x] Task: Conductor - User Manual Verification 'Core Command Orchestration' (Protocol in workflow.md) (dfe7e3f)
 
-## Phase 2: Iterative Interrogation Dialogue
+## Phase 2: Iterative Interrogation Dialogue [checkpoint: fb62189]
 Implement the logic to engage the user in an iterative, multi-turn conversation.
 
 - [x] Task: Implement Iterative Dialogue Controller (7758e90)
@@ -18,7 +18,7 @@ Implement the logic to engage the user in an iterative, multi-turn conversation.
     - [x] Implement the controller that asks one question at a time. (7758e90)
 - [x] Task: Implement the "3-Question" Threshold Logic (49f09e0, 7758e90)
     - [x] Ensure the agent cannot proceed to generation until at least 3 critical questions are answered. (49f09e0, 7758e90)
-- [~] Task: Conductor - User Manual Verification 'Iterative Interrogation Dialogue' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Iterative Interrogation Dialogue' (Protocol in workflow.md) (fb62189)
 
 ## Phase 3: Specification Generation & Persistence
 Implement the generation of the `spec.md` file using the gathered information.
