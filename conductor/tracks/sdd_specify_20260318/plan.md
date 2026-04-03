@@ -35,8 +35,8 @@ Implement the generation of the `spec.md` file using the gathered information.
 ## Phase 4: Semantic Validation (Critic Agent)
 Implement the specialized Critic agent to review and validate the specification.
 
-- [ ] Task: Implement the Critic Agent Base Logic
-    - [ ] Create the Critic agent with its specific persona and validation rules.
+- [x] Task: Implement the Critic Agent Base Logic (803e038)
+    - [x] Create the Critic agent with its specific persona and validation rules. (803e038)
 - [ ] Task: Implement Consistency and Syntax Checks
     - [ ] Write tests for logical contradiction detection (Consistency Check).
     - [ ] Implement Syntax Enforcement for Gherkin keywords.
