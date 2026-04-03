@@ -8,7 +8,7 @@ Establish the `/sdd.specify` command entry point and the transition to Master Pl
     - [x] Implement the initial "Mode Master Plan" announcement. (b253d3d)
 - [x] Task: Implement Master Plan Mode State Management (49f09e0)
     - [x] Define the state required to track the dialogue progress (e.g., question count, gathered data). (49f09e0)
-- [ ] Task: Conductor - User Manual Verification 'Core Command Orchestration' (Protocol in workflow.md)
+- [~] Task: Conductor - User Manual Verification 'Core Command Orchestration' (Protocol in workflow.md)
 
 ## Phase 2: Iterative Interrogation Dialogue
 Implement the logic to engage the user in an iterative, multi-turn conversation.

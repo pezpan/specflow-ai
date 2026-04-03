@@ -6,5 +6,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [ ] **Track: Implement the core /sdd.specify command flow for Master Plan Mode**
+- [~] **Track: Implement the core /sdd.specify command flow for Master Plan Mode**
 *Link: [./tracks/sdd_specify_20260318/](./tracks/sdd_specify_20260318/)*
