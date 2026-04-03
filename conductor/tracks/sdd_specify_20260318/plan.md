@@ -13,9 +13,9 @@ Establish the `/sdd.specify` command entry point and the transition to Master Pl
 ## Phase 2: Iterative Interrogation Dialogue
 Implement the logic to engage the user in an iterative, multi-turn conversation.
 
-- [ ] Task: Implement Iterative Dialogue Controller
-    - [ ] Write unit tests for the dialogue loop (Iterative Dialogue).
-    - [ ] Implement the controller that asks one question at a time.
+- [x] Task: Implement Iterative Dialogue Controller (7758e90)
+    - [x] Write unit tests for the dialogue loop (Iterative Dialogue). (7758e90)
+    - [x] Implement the controller that asks one question at a time. (7758e90)
 - [ ] Task: Implement the "3-Question" Threshold Logic
     - [ ] Ensure the agent cannot proceed to generation until at least 3 critical questions are answered.
 - [ ] Task: Conductor - User Manual Verification 'Iterative Interrogation Dialogue' (Protocol in workflow.md)
