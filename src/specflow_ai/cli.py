@@ -19,6 +19,9 @@ def main(args: list[str] | None = None) -> None:
     # init command
     init_parser = subparsers.add_parser("init", help="Initialize a new project.")
     
+    # specify command
+    specify_parser = subparsers.add_parser("specify", help="Activate Mode Master Plan to define specs.")
+    
     parsed_args = parser.parse_args(args)
 
     if parsed_args.command == "init":
@@ -31,6 +34,9 @@ def main(args: list[str] | None = None) -> None:
         print("- Directory: skills")
         print("- File: AGENTS.md")
         print("- File: PROJECT_CONTEXT.md")
+    elif parsed_args.command == "specify":
+        print("Entering Mode Master Plan...")
+        print("I will guide you to define your User Stories and Acceptance Criteria.")
     else:
         parser.print_help()
 
