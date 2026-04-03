@@ -18,7 +18,7 @@ Implement the logic to engage the user in an iterative, multi-turn conversation.
     - [x] Implement the controller that asks one question at a time. (7758e90)
 - [x] Task: Implement the "3-Question" Threshold Logic (49f09e0, 7758e90)
     - [x] Ensure the agent cannot proceed to generation until at least 3 critical questions are answered. (49f09e0, 7758e90)
-- [ ] Task: Conductor - User Manual Verification 'Iterative Interrogation Dialogue' (Protocol in workflow.md)
+- [~] Task: Conductor - User Manual Verification 'Iterative Interrogation Dialogue' (Protocol in workflow.md)
 
 ## Phase 3: Specification Generation & Persistence
 Implement the generation of the `spec.md` file using the gathered information.
