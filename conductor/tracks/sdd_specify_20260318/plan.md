@@ -28,8 +28,8 @@ Implement the generation of the `spec.md` file using the gathered information.
     - [x] Implement the generator for the specification body. (a3cc22b)
 - [x] Task: Implement Metadata and History Exporters (360fa04)
     - [x] Create components to generate the Metadata Header, Out of Scope Section, and Dialogue History. (360fa04)
-- [ ] Task: Implement File Persistence Service
-    - [ ] Implement saving the resulting file to `specs/{feature_name}/spec.md`.
+- [x] Task: Implement File Persistence Service (56a7a5a)
+    - [x] Implement saving the resulting file to `specs/{feature_name}/spec.md`. (56a7a5a)
 - [ ] Task: Conductor - User Manual Verification 'Specification Generation & Persistence' (Protocol in workflow.md)
 
 ## Phase 4: Semantic Validation (Critic Agent)
