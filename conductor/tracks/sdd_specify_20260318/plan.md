@@ -40,8 +40,8 @@ Implement the specialized Critic agent to review and validate the specification.
 - [x] Task: Implement Consistency and Syntax Checks (913abe8)
     - [x] Write tests for logical contradiction detection (Consistency Check). (913abe8)
     - [x] Implement Syntax Enforcement for Gherkin keywords. (913abe8)
-- [ ] Task: Implement Strict Blocking Workflow
-    - [ ] Ensure the final spec is only "valid" after the Critic gives approval or issues are resolved.
+- [x] Task: Implement Strict Blocking Workflow (5f70878)
+    - [x] Ensure the final spec is only "valid" after the Critic gives approval or issues are resolved. (5f70878)
 - [ ] Task: Conductor - User Manual Verification 'Semantic Validation' (Protocol in workflow.md)
 
 ## Phase 5: Error Handling & Edge Cases
