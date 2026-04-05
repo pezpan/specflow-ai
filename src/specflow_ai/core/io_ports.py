@@ -9,3 +9,7 @@ class OutputPort(ABC):
     @abstractmethod
     def show_message(self, message: str) -> None:
         pass
+
+    @abstractmethod
+    def show_error(self, message: str, details: list[str] | None = None) -> None:
+        pass
