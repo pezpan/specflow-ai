@@ -47,8 +47,8 @@ Implement the specialized Critic agent to review and validate the specification.
 ## Phase 5: Error Handling & Edge Cases
 Ensure the system is robust against poor or contradictory input.
 
-- [ ] Task: Implement Vagueness Guard
-    - [ ] Implement logic to detect and pause for clarification when input is too broad.
+- [x] Task: Implement Vagueness Guard (394cccd)
+    - [x] Implement logic to detect and pause for clarification when input is too broad. (394cccd)
 - [ ] Task: Implement Error Feedback UI
     - [ ] Provide structured, helpful error messages for contradictory or empty inputs.
 - [ ] Task: Conductor - User Manual Verification 'Error Handling & Edge Cases' (Protocol in workflow.md)
